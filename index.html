@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/medias.css">
+    <title>Altares</title>
+</head>
+
+<body>
+    <picture>
+        <source media="(min-width: 768px)" srcset="../img/OlaP1.svg">
+        <img src="img/Ola1.svg" alt="">
+    </picture>
+    <header id="inicio">
+        <img id="flor1" class="flor rota" src="img/Cempasuchil.svg" alt="Cempasúchil">
+        <h1>Altares <br> & Tumbas</h1>
+        <img class="Xolo" src="img/Xolo.svg" alt="">
+        <div class="bienvenida">
+            <p>
+                <span id="MenosT">
+                    Bienvenido viajero
+                    Nos alegra verte de visita por aquí, yo soy Tecayanani y te guiaré por un recorrido de conocimiento.
+                    Acompáñame a conocer un poco más sobre los altares de muertos. <a id="Ma-txt2"
+                        onclick="VerMas(2)">Ver
+                        más...</a>
+                </span>
+                <span id="Mas2">
+                    Un altar de muertos puede tener hasta 7 niveles de altura, cada uno representando un pecado capital
+                    diferente y al mismo tiempo, dentro de la tradición mexica se asocia cada nivel con un tipo de
+                    muerte distinta.
+                    <a onclick="VerMenos(2)">Ver menos...</a>
+                </span>
+            </p>
+        </div>
+        <a href="#altar"><i class='bx bx-chevron-down'></i></a>
+        <img class="flor rota2" id="flor2" src="img/Cempasuchil.svg" alt="Cempasúchil">
+    </header>
+    <picture>
+        <source media="(min-width: 768px)" srcset="../img/OlaP2.svg">
+        <img class="Ola2" src="img/Ola2.svg" alt="">
+    </picture>
+    <main id="altar">
+        <section>
+            <div class="inf-box " id="">
+                <div id="grande1" class="pA1 sub-icon">
+                    <h3>Nivel 1</h3>
+                    <i class='bx bx-chevron-down' id="down1" onclick="vermas(1)"></i>
+                    <i class='bx bx-chevron-up' id="up1" onclick="vermenos(1)"></i>
+                </div>
+                <div id="txt-1" class="list-box">
+                    <picture>
+                        <source media="(min-width: 470px)" srcset="../img/PPPAz.svg">
+                        <source media="(min-width: 400px)" srcset="../img/PPMAz.svg">
+                        <img src="img/PPAz.svg" alt="">
+                    </picture>
+
+                    <p>En el primer y más alto nivel del altar, se coloca una imagen o un ídolo del santo al que se le
+                        fue devoto. Es el escalón más cercano a la puerta del mundo de los muertos, y el más lejano del
+                        de los vivos. Si quieres cruzar al otro lado necesitarás de un guía como yo, un Xoloitzcuintle
+                        pardo.
+                    </p>
+                </div>
+            </div>
+            <div class="inf-box" id="pA2">
+                <div id="grande2" class="sub-icon pA2">
+                    <h3>Nivel 2</h3>
+                    <i class='bx bx-chevron-down' id="down2" onclick="vermas(2)"></i>
+                    <i class='bx bx-chevron-up' id="up2" onclick="vermenos(2)"></i>
+                </div>
+                <div id="txt-2" class="list-box">
+                    <picture>
+                        <source media="(min-width: 470px)" srcset="../img/PPPAm.svg">
+                        <source media="(min-width: 400px)" srcset="../img/PPMAm.svg">
+                        <img class="photo" src="img/PPAm.svg" alt="">
+                    </picture>
+
+                    <p>En el segundo nivel se colocan espejos para que al salir el difunto pueda verse a sí mismo como
+                        difunto y no deambule de más en este mundo. Además de los espejos se deja un vaso de agua para
+                        revitalizar el alma, simbolizando una fuente de vida y calmando la sed del visitante de
+                        ultratumba.
+                    </p>
+                </div>
+            </div>
+            <div class="inf-box" id="pA3">
+                <div id="grande3" class="sub-icon pA3">
+                    <h3>Nivel 3</h3>
+                    <i class='bx bx-chevron-down' id="down3" onclick="vermas(3)"></i>
+                    <i class='bx bx-chevron-up' id="up3" onclick="vermenos(3)"></i>
+                </div>
+                <div id="txt-3" class="list-box">
+                    <picture>
+                        <source media="(min-width: 470px)" srcset="../img/PPPVe.svg">
+                        <source media="(min-width: 400px)" srcset="../img/PPMVe.svg">
+                        <img class="photo" src="img/PPVe.svg" alt="">
+                    </picture>
+                    <p>La sal es el elemento indispensable del tercer nivel, su función es purificar el espíritu y
+                        evitar que se corrompa mientras cruza al mundo terrenal. Recuerda también que cada nivel debe
+                        estar forrado con tela o papel.
+                    </p>
+                </div>
+            </div>
+            <div class="inf-box" id="pA4">
+                <div id="grande4" class="sub-icon pA4">
+                    <h3>Nivel 4</h3>
+                    <i class='bx bx-chevron-down' id="down4" onclick="vermas(4)"></i>
+                    <i class='bx bx-chevron-up' id="up4" onclick="vermenos(4)"></i>
+                </div>
+                <div id="txt-4" class="list-box">
+                    <picture>
+                        <source media="(min-width: 470px)" srcset="../img/PPPAn.svg">
+                        <source media="(min-width: 400px)" srcset="../img/PPMAn.svg">
+                        <img class="photo" src="img/PPAn.svg" alt="">
+                    </picture>
+                    <p>Para el cuarto nivel, se coloca el pan de muerto, donde las tiras de la corteza simbolizan los
+                        huesos y el azúcar, las lágrimas de las ánimas que aún no han encontrado un lugar para
+                        descansar. Ten cuidado y asegúrate de siempre poner un número par de panes en el nivel, pues no
+                        se deben dejar en números impares.
+                    </p>
+                </div>
+            </div>
+            <div class="inf-box" id="pA5">
+                <div id="grande5" class="sub-icon pA5">
+                    <h3>Nivel 5</h3>
+                    <i class='bx bx-chevron-down' id="down5" onclick="vermas(5)"></i>
+                    <i class='bx bx-chevron-up' id="up5" onclick="vermenos(5)"></i>
+                </div>
+                <div id="txt-5" class="list-box">
+                    <picture>
+                        <source media="(min-width: 470px)" srcset="../img/PPPRos.svg">
+                        <source media="(min-width: 400px)" srcset="../img/PPMRos.svg">
+                        <img class="photo" src="img/PPRos.svg" alt="">
+                    </picture>
+                    <p>En el quinto nivel se colocan las comidas y bebiodas favoritas del difunto, el nivel se dedica a
+                        recordar los pasatiempos y gustos que el difunto tuvo en vida. Se acostumbra colocar un arco de
+                        flores de cempasúchil que le dan la bienvenida al difunto.
+                    </p>
+                </div>
+            </div>
+            <div class="inf-box" id="pA6">
+                <div id="grande6" class="sub-icon pA6">
+                    <h3>Nivel 6</h3>
+                    <i class='bx bx-chevron-down' id="down6" onclick="vermas(6)"></i>
+                    <i class='bx bx-chevron-up' id="up6" onclick="vermenos(6)"></i>
+                </div>
+                <div id="txt-6" class="list-box">
+                    <picture>
+                        <source media="(min-width: 470px)" srcset="../img/PPPAm.svg">
+                        <source media="(min-width: 400px)" srcset="../img/PPMAm.svg">
+                        <img class="photo" src="img/PPAma.svg" alt="">
+                    </picture>
+                    <p>En el sexto nivel se debe colocar una foto del difunto, la foto sirve como catalizador que ayuda
+                        a cada ánima a identificar su altar para que pueda reunirse con su familia. También se deben
+                        colocar velas o veladoras en el altar para que guíen al espíritu del difunto a través de los
+                        escalones.
+                    </p>
+                </div>
+            </div>
+            <div class="inf-box" id="pA7">
+                <div id="grande7" class="sub-icon pA7">
+                    <h3>Nivel 7</h3>
+                    <i class='bx bx-chevron-down' id="down7" onclick="vermas(7)"></i>
+                    <i class='bx bx-chevron-up' id="up7" onclick="vermenos(7)"></i>
+                </div>
+                <div id="txt-7" class="list-box">
+                    <picture>
+                        <source media="(min-width: 470px)" srcset="../img/PPPMor.svg">
+                        <source media="(min-width: 400px)" srcset="../img/PPMMor.svg">
+                        <img class="photo" src="img/PPMor.svg" alt="">
+                    </picture>
+
+                    <p>En el séptimo nivel, para el cual se utiliza el suelo, se crea una cruz de aserrín, ceniza, cal,
+                        semillas o flores, que permiten que el difunto expíe sus culpas. Un buen altar también lleva
+                        calaveritas de azúcar que nos recuerdan que la muerte no siempre es amarga, o incienso que
+                        además de ahuyentar a los malos espíritus purifica el ambiente.
+                    </p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <picture>
+        <source media="(min-width: 768px)" srcset="../img/OlaP3.svg">
+        <img class="Ola3" src="img/Ola3.svg" alt="">
+    </picture>
+    <footer>
+        <img id="flor3" class="flor rota" src="img/Cempasuchil.svg" alt="Cempasúchil">
+        <div class="despedida">
+            <p>
+                Espero y éste recorrido te haya servido para conocer un poco sobre la festividad del día de hoy, espero
+                poder volver a verte el año que viene.
+            </p>
+        </div>
+        <img class="Xolo" src="img/XoloAcostado.svg" alt="">
+        <a href="#inicio"><i class='bx bx-chevron-up'></i></a>
+        <img id="flor4" class="flor rota2" src="img/Cempasuchil.svg" alt="Cempasúchil">
+        <picture>
+            <source media="(min-width: 768px)" srcset="../img/OlaP4.svg">
+            <img class="Ola4" src="img/Ola4.svg" alt="">
+        </picture>
+
+        <h1> <span id="visits"></span> visitas.</h1>
+    </footer>
+
+</body>
+
+<script>
+    function vermas(numP) {
+        var masTexto = document.getElementById("txt-" + numP);
+        masTexto.style.display = "flex";
+        var menos = document.getElementById("up" + numP);
+        menos.style.display = "block";
+        var mas = document.getElementById("down" + numP);
+        mas.style.display = "none";
+        var gran = document.getElementById("grande" + numP);
+        gran.style.width = "100%";
+
+    }
+    function vermenos(numP) {
+        var menosTexto = document.getElementById("txt-" + numP);
+        menosTexto.style.display = "none";
+        var more = document.getElementById("down" + numP);
+        more.style.display = "block";
+        var less = document.getElementById("up" + numP);
+        less.style.display = "none";
+        var grand = document.getElementById("grande" + numP);
+        if (numP == 1) {
+            grand.style.width = "50%";
+        }
+        if (numP == 2) {
+            grand.style.width = "58.3%";
+        }
+        if (numP == 3) {
+            grand.style.width = "66.6%";
+        }
+        if (numP == 4) {
+            grand.style.width = "74.9%";
+        }
+        if (numP == 5) {
+            grand.style.width = "83.2%";
+        }
+        if (numP == 6) {
+            grand.style.width = "91.5%";
+        }
+    }
+    function VerMas(num) {
+        var mas = document.getElementById("Mas" + num);
+        mas.style.display = "block";
+        var men = document.getElementById("MenosT");
+        men.style.display = "none";
+        var hide = document.getElementById("Ma-txt" + num);
+        hide.style.display = "none";
+    }
+
+    function VerMenos(num) {
+        var menos = document.getElementById("Mas" + num);
+        menos.style.display = "none";
+        var mens = document.getElementById("MenosT");
+        mens.style.display = "block";
+        var show = document.getElementById("Ma-txt" + num);
+        show.style.display = "inline";
+    }
+</script>
+
+</html>

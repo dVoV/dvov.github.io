@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1500 200">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: #1c0c40;
+      }
+
+      .cls-2 {
+        isolation: isolate;
+        opacity: .52;
+      }
+    </style>
+  </defs>
+  <path class="cls-1" d="M676,48.37C459.79,32.83,228.13,32.57,0,37.86V200H1500V110.24c-65.33-.18-130.67-1.83-196-5.12-224-12.09-412-40.93-628-56.75Z"/>
+  <path class="cls-2" d="M676,16.35C459.79-2.31,228.13-2.63,0,3.73V198.46H1500V90.65c-65.33-.22-130.67-2.2-196-6.14-224-14.52-412-49.16-628-68.15Z"/>
+</svg>

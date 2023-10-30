@@ -1,0 +1,316 @@
+@media screen and (max-width: 320px) {
+    header h1 {
+        font-size: 2.8rem;
+        margin: 20px 10px 0 0;
+    }
+
+    header .bienvenida {
+        width: 50%;
+    }
+
+    header .Xolo {
+        left: -65%;
+    }
+
+    footer .despedida {
+        width: 84%;
+    }
+
+    footer .Xolo {
+        width: 110%;
+    }
+
+}
+
+@media screen and (min-width: 375px) {
+    main section .inf-box .list-box {
+        height: 370px;
+        margin-bottom: 10px;
+    }
+
+    main section .inf-box p {
+        padding: 0 20px;
+    }
+
+}
+
+@media screen and (min-width: 400px) {
+    header .Xolo {
+        width: 80%;
+        left: -40%;
+    }
+
+    .flor {
+        width: 50%;
+    }
+
+    header #flor1 {
+        top: -5%;
+        left: -15%;
+    }
+
+    main section .inf-box .list-box {
+        height: 310px;
+    }
+}
+
+@media screen and (min-width: 410px) {
+    main section .inf-box .list-box {
+        height: 330px;
+    }
+}
+
+@media screen and (min-width: 430px) {
+    main section .inf-box .list-box {
+        height: 340px;
+    }
+}
+
+@media screen and (min-width: 440px) {
+    main section .inf-box .list-box {
+        height: 360px;
+    }
+}
+
+@media screen and (min-width: 470px) {
+    header .Xolo {
+        width: 75%;
+    }
+
+    main section .inf-box .list-box {
+        height: 280px;
+    }
+}
+
+@media screen and (min-width: 480px) {
+    main section .inf-box .list-box {
+        height: 290px;
+    }
+}
+
+@media screen and (min-width: 490px) {
+    main section .inf-box .list-box {
+        height: 300px;
+    }
+}
+
+@media screen and (min-width: 510px) {
+    header .Xolo {
+        width: 70%;
+        left: -35%;
+    }
+
+    main section .inf-box .list-box {
+        height: 320px;
+    }
+}
+
+@media screen and (min-width: 545px) {
+    header .Xolo {
+        width: 70%;
+        left: -35%;
+    }
+
+    main section>.inf-box {
+        width: 70%;
+    }
+
+    main section .inf-box .list-box {
+        height: 300px;
+    }
+}
+
+@media screen and (min-width: 580px) {
+    main section .inf-box .list-box {
+        height: 320px;
+    }
+}
+
+@media screen and (min-width: 610px) {
+    header .Xolo {
+        width: 60%;
+        left: -15%;
+    }
+
+    header .bienvenida {
+        width: 35%;
+    }
+
+    .flor {
+        width: 45%;
+    }
+
+    header #flor1 {
+        top: -10%;
+        left: -10%;
+    }
+
+    main section .inf-box .list-box {
+        height: 340px;
+    }
+
+    footer .Xolo {
+        width: 80%;
+        right: -25%;
+    }
+
+    footer .despedida {
+        width: 40%;
+        left: 12%;
+    }
+}
+
+@media screen and (min-width: 645px) {
+    main section .inf-box .list-box {
+        height: 360px;
+    }
+}
+
+@media screen and (min-width: 675px) {
+    main section .inf-box .list-box {
+        height: 380px;
+    }
+}
+
+@media screen and (min-width: 735px) {
+    main section .inf-box .list-box {
+        height: 400px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    header h1 {
+        font-size: 3.5rem;
+        justify-content: center;
+        text-align: center;
+    }
+
+    header .bienvenida {
+        width: 30%;
+        top: 35vh;
+        right: 15%;
+        padding: 20px;
+    }
+
+    header .Xolo {
+        width: 55%;
+        left: -10%;
+        bottom: 120px;
+    }
+
+    .flor {
+        width: 40%;
+    }
+
+    header #flor1 {
+        top: -15%;
+        left: -15%;
+    }
+
+    header #flor2 {
+        right: -18%;
+    }
+
+    main section>.inf-box {
+        width: 537.59px;
+    }
+
+    main section .inf-box .list-box {
+        max-height: 400px;
+    }
+
+    footer #flor3 {
+        left: -15%;
+    }
+
+    footer #flor4 {
+        right: -15%;
+        bottom: -10%;
+    }
+
+    footer .Xolo {
+        width: 80%;
+        right: -15%;
+    }
+
+    footer .despedida {
+        width: 30%;
+        top: 40vh;
+        left: 12%;
+        padding: 20px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    /*-------------- FONDO OLAS -----------------*/
+
+    body img {
+        position: absolute;
+        z-index: -1;
+    }
+
+    body .Ola2 {
+        top: 23%;
+        z-index: -2;
+    }
+
+    body .Ola3 {
+        top: 62%;
+        z-index: -2;
+    }
+
+    body .Ola4 {
+        bottom: 0;
+        z-index: -2;
+    }
+
+    header h1 {
+        font-size: 5rem;
+    }
+
+    header .bienvenida {
+        width: 20%;
+        top: 40vh;
+        right: 30%;
+    }
+
+    header .Xolo {
+        width: 30%;
+        left: 12%;
+        bottom: 50px;
+    }
+
+    .flor {
+        width: 30%;
+    }
+
+    header #flor1 {
+        top: -20%;
+        left: -15%;
+    }
+
+    header #flor2 {
+        right: -15%;
+    }
+
+    footer #flor3 {
+        left: -10%;
+    }
+
+    footer #flor4 {
+        right: -10%;
+        bottom: -15%;
+    }
+
+    footer .Xolo {
+        width: 45%;
+        right: 15%;
+        bottom: 130px;
+    }
+
+    footer .despedida {
+        width: 20%;
+        left: 23%;
+    }
+
+}
