@@ -293,3 +293,20 @@ footer a i{
     width: 100%;
     color: #8F35EF;
 }
+.contador{
+    position: absolute;
+}
+.website-counter {
+    background-color: #ff4957;
+    height: 50px;
+    width: 80px;
+    color: white;
+    border-radius: 30px;
+    font-weight: 700;
+    font-size: 25px;
+    margin-top: 600px;
+    margin-left: 50px;
+    text-align: center;
+    line-height: 50px;
+  }
+
