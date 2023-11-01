@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/medias.css">
+    <script defer src="index.js"></script>
     <title>Altares</title>
 </head>
 
@@ -29,14 +30,13 @@
                     Bienvenido viajero
                     Nos alegra verte de visita por aquí, yo soy Tecayanani y te guiaré por un recorrido de conocimiento.
                     Acompáñame a conocer un poco más sobre los altares de muertos. <a id="Ma-txt2"
-                        onclick="VerMas(2)">Ver
-                        más...</a>
+                        onclick="VerMas(2)"> <b>Seguir leyendo...</b></a>
                 </span>
                 <span id="Mas2">
                     Un altar de muertos puede tener hasta 7 niveles de altura, cada uno representando un pecado capital
                     diferente y al mismo tiempo, dentro de la tradición mexica se asocia cada nivel con un tipo de
                     muerte distinta.
-                    <a onclick="VerMenos(2)">Ver menos...</a>
+                    <a onclick="VerMenos(2)"><b>Leer anterior...</b></a>
                 </span>
             </p>
         </div>
@@ -205,7 +205,9 @@
             <img class="Ola4" src="img/Ola4.svg" alt="">
         </picture>
 
-        <h1> <span id="visits"></span> visitas.</h1>
+        <div class="contador">
+        <div class="website-counter"></div>
+    </div>
     </footer>
 
 </body>
